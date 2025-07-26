@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67429F9D2E29333600EBB776 /* Ollama in Frameworks */ = {isa = PBXBuildFile; productRef = 67429F9C2E29333600EBB776 /* Ollama */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67429F7F2E2932BC00EBB776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67429F652E2932BB00EBB776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67429F6C2E2932BB00EBB776;
+			remoteInfo = ZeroNetGPT;
+		};
+		67429F892E2932BC00EBB776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67429F652E2932BB00EBB776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67429F6C2E2932BB00EBB776;
+			remoteInfo = ZeroNetGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67429F6D2E2932BB00EBB776 /* ZeroNetGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroNetGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67429F7E2E2932BC00EBB776 /* ZeroNetGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroNetGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67429F882E2932BC00EBB776 /* ZeroNetGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroNetGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		67429F6F2E2932BB00EBB776 /* ZeroNetGPT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZeroNetGPT;
+			sourceTree = "<group>";
+		};
+		67429F812E2932BC00EBB776 /* ZeroNetGPTTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZeroNetGPTTests;
+			sourceTree = "<group>";
+		};
+		67429F8B2E2932BC00EBB776 /* ZeroNetGPTUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZeroNetGPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67429F6A2E2932BB00EBB776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67429F9D2E29333600EBB776 /* Ollama in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67429F7B2E2932BC00EBB776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67429F852E2932BC00EBB776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67429F642E2932BB00EBB776 = {
+			isa = PBXGroup;
+			children = (
+				67429F6F2E2932BB00EBB776 /* ZeroNetGPT */,
+				67429F812E2932BC00EBB776 /* ZeroNetGPTTests */,
+				67429F8B2E2932BC00EBB776 /* ZeroNetGPTUITests */,
+				67429F6E2E2932BB00EBB776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67429F6E2E2932BB00EBB776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67429F6D2E2932BB00EBB776 /* ZeroNetGPT.app */,
+				67429F7E2E2932BC00EBB776 /* ZeroNetGPTTests.xctest */,
+				67429F882E2932BC00EBB776 /* ZeroNetGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67429F6C2E2932BB00EBB776 /* ZeroNetGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67429F922E2932BC00EBB776 /* Build configuration list for PBXNativeTarget "ZeroNetGPT" */;
+			buildPhases = (
+				67429F692E2932BB00EBB776 /* Sources */,
+				67429F6A2E2932BB00EBB776 /* Frameworks */,
+				67429F6B2E2932BB00EBB776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				67429F6F2E2932BB00EBB776 /* ZeroNetGPT */,
+			);
+			name = ZeroNetGPT;
+			packageProductDependencies = (
+				67429F9C2E29333600EBB776 /* Ollama */,
+			);
+			productName = ZeroNetGPT;
+			productReference = 67429F6D2E2932BB00EBB776 /* ZeroNetGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67429F7D2E2932BC00EBB776 /* ZeroNetGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67429F952E2932BC00EBB776 /* Build configuration list for PBXNativeTarget "ZeroNetGPTTests" */;
+			buildPhases = (
+				67429F7A2E2932BC00EBB776 /* Sources */,
+				67429F7B2E2932BC00EBB776 /* Frameworks */,
+				67429F7C2E2932BC00EBB776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67429F802E2932BC00EBB776 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				67429F812E2932BC00EBB776 /* ZeroNetGPTTests */,
+			);
+			name = ZeroNetGPTTests;
+			packageProductDependencies = (
+			);
+			productName = ZeroNetGPTTests;
+			productReference = 67429F7E2E2932BC00EBB776 /* ZeroNetGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67429F872E2932BC00EBB776 /* ZeroNetGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67429F982E2932BC00EBB776 /* Build configuration list for PBXNativeTarget "ZeroNetGPTUITests" */;
+			buildPhases = (
+				67429F842E2932BC00EBB776 /* Sources */,
+				67429F852E2932BC00EBB776 /* Frameworks */,
+				67429F862E2932BC00EBB776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67429F8A2E2932BC00EBB776 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				67429F8B2E2932BC00EBB776 /* ZeroNetGPTUITests */,
+			);
+			name = ZeroNetGPTUITests;
+			packageProductDependencies = (
+			);
+			productName = ZeroNetGPTUITests;
+			productReference = 67429F882E2932BC00EBB776 /* ZeroNetGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67429F652E2932BB00EBB776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					67429F6C2E2932BB00EBB776 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					67429F7D2E2932BC00EBB776 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 67429F6C2E2932BB00EBB776;
+					};
+					67429F872E2932BC00EBB776 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 67429F6C2E2932BB00EBB776;
+					};
+				};
+			};
+			buildConfigurationList = 67429F682E2932BB00EBB776 /* Build configuration list for PBXProject "ZeroNetGPT" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67429F642E2932BB00EBB776;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				67429F9B2E29333600EBB776 /* XCRemoteSwiftPackageReference "ollama-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 67429F6E2E2932BB00EBB776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67429F6C2E2932BB00EBB776 /* ZeroNetGPT */,
+				67429F7D2E2932BC00EBB776 /* ZeroNetGPTTests */,
+				67429F872E2932BC00EBB776 /* ZeroNetGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67429F6B2E2932BB00EBB776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67429F7C2E2932BC00EBB776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67429F862E2932BC00EBB776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67429F692E2932BB00EBB776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67429F7A2E2932BC00EBB776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67429F842E2932BC00EBB776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67429F802E2932BC00EBB776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67429F6C2E2932BB00EBB776 /* ZeroNetGPT */;
+			targetProxy = 67429F7F2E2932BC00EBB776 /* PBXContainerItemProxy */;
+		};
+		67429F8A2E2932BC00EBB776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67429F6C2E2932BB00EBB776 /* ZeroNetGPT */;
+			targetProxy = 67429F892E2932BC00EBB776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67429F902E2932BC00EBB776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67429F912E2932BC00EBB776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		67429F932E2932BC00EBB776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZeroNetGPT/ZeroNetGPT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFN5P6KSYS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tools.zeroNetGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67429F942E2932BC00EBB776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZeroNetGPT/ZeroNetGPT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFN5P6KSYS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tools.zeroNetGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		67429F962E2932BC00EBB776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFN5P6KSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tools.zeroNetGPT.ZeroNetGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeroNetGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeroNetGPT";
+			};
+			name = Debug;
+		};
+		67429F972E2932BC00EBB776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFN5P6KSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tools.zeroNetGPT.ZeroNetGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeroNetGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeroNetGPT";
+			};
+			name = Release;
+		};
+		67429F992E2932BC00EBB776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFN5P6KSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tools.zeroNetGPT.ZeroNetGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZeroNetGPT;
+			};
+			name = Debug;
+		};
+		67429F9A2E2932BC00EBB776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFN5P6KSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tools.zeroNetGPT.ZeroNetGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZeroNetGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67429F682E2932BB00EBB776 /* Build configuration list for PBXProject "ZeroNetGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67429F902E2932BC00EBB776 /* Debug */,
+				67429F912E2932BC00EBB776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67429F922E2932BC00EBB776 /* Build configuration list for PBXNativeTarget "ZeroNetGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67429F932E2932BC00EBB776 /* Debug */,
+				67429F942E2932BC00EBB776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67429F952E2932BC00EBB776 /* Build configuration list for PBXNativeTarget "ZeroNetGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67429F962E2932BC00EBB776 /* Debug */,
+				67429F972E2932BC00EBB776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67429F982E2932BC00EBB776 /* Build configuration list for PBXNativeTarget "ZeroNetGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67429F992E2932BC00EBB776 /* Debug */,
+				67429F9A2E2932BC00EBB776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67429F9B2E29333600EBB776 /* XCRemoteSwiftPackageReference "ollama-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:loopwork/ollama-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67429F9C2E29333600EBB776 /* Ollama */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67429F9B2E29333600EBB776 /* XCRemoteSwiftPackageReference "ollama-swift" */;
+			productName = Ollama;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 67429F652E2932BB00EBB776 /* Project object */;
+}

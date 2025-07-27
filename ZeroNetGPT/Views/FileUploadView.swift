@@ -60,7 +60,7 @@ struct FileUploadView: View {
                     .foregroundColor(.red)
                 Text("Failed to process file")
                     .font(.headline)
-                Text(error.localizedDescription)
+                Text(error)
                     .font(.caption)
                     .foregroundColor(.gray)
                     .multilineTextAlignment(.center)

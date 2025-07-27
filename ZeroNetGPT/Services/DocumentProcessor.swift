@@ -14,7 +14,7 @@ enum FileProcessingState {
     case idle
     case processing
     case ready(_ url: URL)
-    case failed(_ error: Error)
+    case failed(_ errorDescription: String)
 }
 
 final class DocumentProcessor: ObservableObject {
@@ -101,7 +101,13 @@ final class DocumentProcessor: ObservableObject {
             try await llmService.processFileText(text)
             await updateFileProcessingState(.ready(url))
         } catch {
-            await updateFileProcessingState(.failed(error))
+            let errorDescription: String
+            if let responseError = error as? Ollama.Client.Error {
+                errorDescription = responseError.description
+            } else {
+                errorDescription = "Unexpected Error"
+            }
+            await updateFileProcessingState(.failed(errorDescription))
         }
     }
     

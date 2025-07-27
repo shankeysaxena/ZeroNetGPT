@@ -18,7 +18,7 @@ ZeroNetGPT is macOS app that can talk to your document based on its content
 - Open terminal and run below command
 
 ```
-ollama run llama3
-
+ollama pull mistral
+ollama pull nomic-embed-text
 ```
 - Clone tihub repo and build it
